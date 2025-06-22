@@ -35,7 +35,7 @@ movie-review-sentiment-analysis/
 ## Dataset Location
 
 The dataset can be accessed from the following drive folder:  
-[Insert Drive Folder Link Here]
+https://drive.google.com/drive/folders/1z15jcLywsrHIsoUydlCcL_uKUlOeINic?usp=sharing
 
 **Important:** Before training the model, you must download the dataset from the above location.  
 Place the downloaded dataset files into the `data/raw/` directory in the project structure to ensure proper access during training.
