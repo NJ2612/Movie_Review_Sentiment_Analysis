@@ -1,0 +1,194 @@
+[
+    {
+        "version": "20250618_183019",
+        "accuracy": 0.8533,
+        "model_type": "XGBoost",
+        "model_path": "C:\\Users\\abpsn\\OneDrive\\Desktop\\PBL_BIG_DATA_COMPLETE\\movie-review-sentiment-analysis-main\\models\\ensemble_model.pkl",
+        "timestamp": "2025-06-18T18:30:19.592490",
+        "parameters": {
+            "n_estimators": 200,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "vectorizer_features": 5000
+        },
+        "class_metrics": {
+            "negative": {
+                "precision": 0.8695008460236887,
+                "recall": 0.8286635758919573,
+                "f1_score": 0.8485911858808959
+            },
+            "positive": {
+                "precision": 0.8387708649468892,
+                "recall": 0.8775550704504862,
+                "f1_score": 0.8577247599650858
+            }
+        },
+        "overall_metrics": {
+            "macro_avg_precision": 0.8541358554852889,
+            "macro_avg_recall": 0.8531093231712217,
+            "macro_avg_f1": 0.8531579729229908,
+            "weighted_avg_precision": 0.8540160085590894,
+            "weighted_avg_recall": 0.8533,
+            "weighted_avg_f1": 0.8531935938619192
+        },
+        "training_metadata": {
+            "train_size": 40000,
+            "test_size": 10000,
+            "feature_count": 5000,
+            "vectorizer_params": {
+                "max_features": 5000,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "min_df": 5,
+                "max_df": 0.9
+            }
+        }
+    },
+    {
+        "version": "20250618_183451",
+        "accuracy": 0.8533,
+        "model_type": "XGBoost",
+        "model_path": "C:\\Users\\abpsn\\OneDrive\\Desktop\\PBL_BIG_DATA_COMPLETE\\movie-review-sentiment-analysis-main\\models\\ensemble_model.pkl",
+        "timestamp": "2025-06-18T18:34:51.181637",
+        "parameters": {
+            "n_estimators": 200,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "vectorizer_features": 5000
+        },
+        "class_metrics": {
+            "negative": {
+                "precision": 0.8695008460236887,
+                "recall": 0.8286635758919573,
+                "f1_score": 0.8485911858808959
+            },
+            "positive": {
+                "precision": 0.8387708649468892,
+                "recall": 0.8775550704504862,
+                "f1_score": 0.8577247599650858
+            }
+        },
+        "overall_metrics": {
+            "macro_avg_precision": 0.8541358554852889,
+            "macro_avg_recall": 0.8531093231712217,
+            "macro_avg_f1": 0.8531579729229908,
+            "weighted_avg_precision": 0.8540160085590894,
+            "weighted_avg_recall": 0.8533,
+            "weighted_avg_f1": 0.8531935938619192
+        },
+        "training_metadata": {
+            "train_size": 40000,
+            "test_size": 10000,
+            "feature_count": 5000,
+            "vectorizer_params": {
+                "max_features": 5000,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "min_df": 5,
+                "max_df": 0.9
+            }
+        }
+    },
+    {
+        "version": "20250618_192755",
+        "accuracy": 0.8556,
+        "model_type": "XGBoost",
+        "model_path": "C:\\Users\\abpsn\\OneDrive\\Desktop\\PBL_BIG_DATA_COMPLETE\\movie-review-sentiment-analysis-main\\models\\ensemble_model.pkl",
+        "timestamp": "2025-06-18T19:27:55.076055",
+        "parameters": {
+            "n_estimators": 200,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "vectorizer_features": 5000
+        },
+        "class_metrics": {
+            "negative": {
+                "precision": 0.8726425090061454,
+                "recall": 0.8300745817375529,
+                "f1_score": 0.8508264462809917
+            },
+            "positive": {
+                "precision": 0.840371141829199,
+                "recall": 0.8807303036316729,
+                "f1_score": 0.8600775193798449
+            }
+        },
+        "overall_metrics": {
+            "macro_avg_precision": 0.8565068254176722,
+            "macro_avg_recall": 0.855402442684613,
+            "macro_avg_f1": 0.8554519828304183,
+            "weighted_avg_precision": 0.8563809670856821,
+            "weighted_avg_recall": 0.8556,
+            "weighted_avg_f1": 0.8554880620155038
+        },
+        "training_metadata": {
+            "train_size": 40000,
+            "test_size": 10000,
+            "feature_count": 5000,
+            "vectorizer_params": {
+                "max_features": 5000,
+                "ngram_range": [
+                    1,
+                    2
+                ],
+                "min_df": 5,
+                "max_df": 0.9
+            }
+        }
+    },
+    {
+        "version": "20250618_200235",
+        "accuracy": 0.8566,
+        "model_type": "XGBoost",
+        "model_path": "C:\\Users\\abpsn\\OneDrive\\Desktop\\PBL_BIG_DATA_COMPLETE\\movie-review-sentiment-analysis-main\\models\\ensemble_model.pkl",
+        "timestamp": "2025-06-18T20:02:35.361773",
+        "parameters": {
+            "n_estimators": 200,
+            "learning_rate": 0.1,
+            "max_depth": 6,
+            "vectorizer_features": 5000,
+            "ngram_range": [
+                1,
+                3
+            ]
+        },
+        "class_metrics": {
+            "negative": {
+                "precision": 0.8629347602387323,
+                "recall": 0.8451925015117919,
+                "f1_score": 0.8539714867617109
+            },
+            "positive": {
+                "precision": 0.8506127212604552,
+                "recall": 0.8678309188331018,
+                "f1_score": 0.8591355599214145
+            }
+        },
+        "overall_metrics": {
+            "macro_avg_precision": 0.8567737407495937,
+            "macro_avg_recall": 0.8565117101724469,
+            "macro_avg_f1": 0.8565535233415627,
+            "weighted_avg_precision": 0.8567256847975783,
+            "weighted_avg_recall": 0.8566,
+            "weighted_avg_f1": 0.8565736632268856
+        },
+        "training_metadata": {
+            "train_size": 40000,
+            "test_size": 10000,
+            "feature_count": 5001,
+            "vectorizer_params": {
+                "max_features": 5000,
+                "ngram_range": [
+                    1,
+                    3
+                ],
+                "min_df": 5,
+                "max_df": 0.9
+            }
+        }
+    }
+]
